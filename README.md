@@ -4,7 +4,7 @@
 
 ### Clone the Repository
 
-`git clone https://github.com/wanchain-ipfs`
+`git clone ...`
 
 `cd wanchain-ipfs`
 
