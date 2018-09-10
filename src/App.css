@@ -1,0 +1,231 @@
+.App {
+    text-align: center;
+
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+/*some css I added*/
+input[type="file"] {
+    display: inline-block;
+}
+
+.table {
+    max-width: 90%;
+    margin: 10px;
+}
+
+.table th {
+    text-align: center;
+}
+
+/*end of my css*/
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+body, html {
+    background: #222;
+    color: white;
+}
+
+.list-group-item {
+    background: black;
+}
+
+a {
+    color: #43c5ff;
+}
+
+hr {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+p.hash {
+    line-height: 2;
+    margin-top: 15px;
+}
+
+.list-group-item {
+    border: none;
+    background: #607D8B;
+}
+
+body {
+    background: url(https://wanchain.org/dist/4cd2d603837e4e3af29fd440d990efdb.jpg) !important;
+    color: white;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header.App-header {
+    color: white;
+    background: transparent !important;
+}
+
+.btn {
+    background: linear-gradient(90deg, #3680f8, #00aeff) !important;
+    border: solid 1px white;
+}
+
+.list-group-item {
+    border: none;
+    background: transparent;
+    border: solid 1px #1a3d8a;
+    padding: 28px;
+}
+
+a.openfile {
+    text-decoration: underline;
+    color: #8BC34A;
+}
+
+.modal-content {
+    color: black;
+}
+
+.btn {
+    color: white !important;
+    text-shadow: none;
+}
+
+.btn-lg {
+    min-width: 200px;
+}
+
+.btn span {
+    float: right !important;
+    position: relative;
+    right: -7px;
+    color: white;
+    top: 3px;
+}
+
+.logo {
+    width: 150px;
+}
+
+img.logo.ipfs {
+    width: 50px;
+    margin-left: 15px;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 6px;
+    left: 6px;
+}
+
+.linky {
+    color: white;
+}
+
+button.btn.btn-lg.btn-primary {
+    position: fixed;
+    bottom: 11px;
+    right: 20px;
+}
+
+.modal-content button.btn.btn-primary {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    font-size: 21px;
+}
+
+span.glyphicon.glyphicon-plus {
+    margin-left: 14px;
+    font-size: 27px;
+    position: relative;
+    top: 9px;
+}
+
+header.App-header {
+    padding-top: 48px;
+}
+
+
+
+a {
+    font-size: 11px;
+}
+
+button.btn.btn-md.btn-primary {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    background: #009688 !important;
+}
+
+a {
+    font-size: 13px;
+}
+
+a.btn.btn-md {
+    margin-bottom: 15px;
+    margin-top: 17px;
+}
+
+button.btn.btn-primary {
+    font-size: 17px !important;
+    padding: 12px;
+}
+
+a.replace.file {
+    color: orange;
+    position: relative;
+    top: -10px;
+}.wanAccount {
+     padding: 20px;
+     background: black;
+     border: solid 1px #333;
+ }div.hash {
+      background: black;
+      padding: 20px;
+      border: solid 1px #333;
+  }.hash.new.active {
+       BACKGROUND: BLACK;
+       PADDING: 10PX;
+       PADDING-TOP: 21PX;
+       BORDER: solid 1px #333;
+   }.wanAccount {
+        margin-top: 23px;
+    }a.btn.btn-lg.replace.file {
+         font-size: 13px;
+         border: none;
+         margin: 0px;
+         margin-top: 24px;
+         border-radius: 0px;
+     }.hash.ipfs {
+          margin-top: 10px;
+      }
+.wanAccount, .hash {
+    background: white!important;
+    color: black;
+}
