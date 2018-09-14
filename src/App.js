@@ -41,7 +41,7 @@ class App extends Component {
     getHash = (event) => {
         var self = this;
         var wanAddress = self.state.wanAddress;
-        var wanPassword = prompt('enter address password for '+self.state.wanAddress);
+        var wanPassword = prompt('enter address password for '+self.state.wanAddress,'test');
         if(wanPassword){
         self.setState({uploading: 'true'});
         web3.eth.personal.unlockAccount(self.state.wanAddress, wanPassword, function (err, resp) {
@@ -131,7 +131,7 @@ class App extends Component {
             //return the transaction hash from the ethereum contract
             //see, this https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html#methods-mymethod-send
             var wanAddress = self.state.wanAddress.toUpperCase()
-            var wanPassword = prompt('enter address password for '+self.state.wanAddress);
+            var wanPassword = prompt('enter address password for '+self.state.wanAddress,'test');
             if(wanPassword){
             web3.eth.personal.unlockAccount(wanAddress, wanPassword, function (err, resp) {
                 console.log('account unlocked', true);
