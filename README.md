@@ -5,7 +5,6 @@
 
 <hr>
 
-<img style="max-width:100%" src="https://gateway.ipfs.io/ipfs/QmQZf6HUMDgqKikRRH7SHnQFXTtkbYApth5eyydPVDGsEr">
 
 ### Clone the Repository
 
@@ -52,7 +51,7 @@ In <code>storehash.js</code> on line 5 update the contract address to your new c
 
 If you made any edits to the contract, you will also need to update the contract ABI inside <code>storehash.js</code>
 
-<img src="https://gateway.ipfs.io/ipfs/QmbQoUXYiLXEDsheDvS7B2mcwzVn4Ymsq3B5T4H6HwxRaY">
+
 
 
 
