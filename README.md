@@ -1,10 +1,15 @@
-# Wanchain + IPFS
+# Wanchain + IPFS React dApp
+
+<hr>
+<a href="http://18.218.197.29:3006/">Click Here to View Live Demo</a>
+
+<hr>
 
 <img style="max-width:100%" src="http://gateway.ipfs.io/ipfs/QmQZf6HUMDgqKikRRH7SHnQFXTtkbYApth5eyydPVDGsEr">
 
 ### Clone the Repository
 
-`git clone ...`
+`git clone https://github.com/wanchain/wanchain-ipfs.git`
 
 `cd wanchain-ipfs`
 
@@ -48,15 +53,6 @@ In <code>storehash.js</code> on line 5 update the contract address to your new c
 If you made any edits to the contract, you will also need to update the contract ABI inside <code>storehash.js</code>
 
 <img src="https://gateway.ipfs.io/ipfs/QmbQoUXYiLXEDsheDvS7B2mcwzVn4Ymsq3B5T4H6HwxRaY">
-
-
-### Replacing The File
-#### Upload File
-<img style="max-width:600px" src="http://gateway.ipfs.io/ipfs/QmeNQf2yjdMM9NoXBtnMZJq9NSsjTZ6DM9z6aytkf2iXkP">
-<br>
-
-#### Call Smart Contract and get New Hash
-<img style="max-width:600px" src="http://gateway.ipfs.io/ipfs/QmPQcxk6E7WYdWaPcVUw9GL7L5iaUDdamtn8Jdx2qkqyiv">
 
 
 
