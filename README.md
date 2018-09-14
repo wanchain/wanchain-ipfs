@@ -5,7 +5,7 @@
 
 <hr>
 
-<img style="max-width:100%" src="http://gateway.ipfs.io/ipfs/QmQZf6HUMDgqKikRRH7SHnQFXTtkbYApth5eyydPVDGsEr">
+<img style="max-width:100%" src="https://gateway.ipfs.io/ipfs/QmQZf6HUMDgqKikRRH7SHnQFXTtkbYApth5eyydPVDGsEr">
 
 ### Clone the Repository
 
