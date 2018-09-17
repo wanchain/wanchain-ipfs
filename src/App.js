@@ -46,6 +46,8 @@ class App extends Component {
         self.setState({uploading: 'true'});
         web3.eth.personal.unlockAccount(self.state.wanAddress, wanPassword, function (err, resp) {
             console.log('account unlocked', true);
+            var theVal = "1000000000000000000"
+            console.log(theVal)
 
             storehash.methods.getHash().call().then(function (resp) {
                 console.log(resp)
@@ -134,7 +136,8 @@ class App extends Component {
             var wanPassword = prompt('enter address password for '+self.state.wanAddress,'test');
             if(wanPassword){
             web3.eth.personal.unlockAccount(wanAddress, wanPassword, function (err, resp) {
-                console.log('account unlocked', true);
+                console.log('account unlocked', resp);
+
                 storehash.methods.sendHash(ipfsHash[0].hash).send({
                     from: wanAddress,
                 }, (error, transactionHash) => {

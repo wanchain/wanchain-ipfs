@@ -1,5 +1,9 @@
 # Wanchain + IPFS React dApp
 
+[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
+[![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
+[![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
+
 <hr>
 <a href="http://18.218.197.29:3006/">Click Here to View Live Demo</a>
 
@@ -51,9 +55,12 @@ In <code>storehash.js</code> on line 5 update the contract address to your new c
 
 If you made any edits to the contract, you will also need to update the contract ABI inside <code>storehash.js</code>
 
+## License
 
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-
+## Credits
+This repo was originally cloned from https://github.com/mcchan1/eth-ipfs and modified
 
 
 
